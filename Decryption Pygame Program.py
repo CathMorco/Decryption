@@ -18,6 +18,8 @@ white = (255,255,255)
 col_spd = 1
 
 #The color directory & its values
+col_dir =[[-1,1,1],[-1,1,-1],[-1,1,1],[-1,1,-1]]
+def_col = [[120,120,240],[140,140,240],[160,160,220]]
 
 #Initialized values for functions
 
