@@ -33,9 +33,14 @@ def draw_text(text, size, col, x, y):
     text_rect=text_surface.get_rect()
     text_rect.center = (x,y)
     screen.blit(text_surface, text_rect)
-    
-#Creates the color change
 
+#Creates the color change
+def col_change(col,dir):
+    for i in range(1):
+        col[i] += col_spd * dir[i]
+        if col[i] >=maximum or col[i] <=minimum:
+            dir[i] *= -1
+            
 #Combines the color change and draw text into one function
 
 # Initialising pygame
