@@ -54,6 +54,8 @@ pygame.init()
 decrypt=input(str("Please Input the statement that will be decrypted:"))
 
 #Converts the following characters: 'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !
+new_decrypt= (decrypt.replace("*","a").replace("&","e").replace("#","i").replace("+","o").replace("!","u"))
+print("\n Now look back again at the 'Decryption' display screen :D")
 
 # Split into words
 
