@@ -61,6 +61,8 @@ print("\n Now look back again at the 'Decryption' display screen :D")
 words = new_decrypt.split()
 
 # Calculate number of words per line
+num_words = len(words)
+words_per_line = num_words // 3
 
 # Divide into 3 lines
 
