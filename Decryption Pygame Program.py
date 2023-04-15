@@ -22,6 +22,8 @@ col_dir =[[-1,1,1],[-1,1,-1],[-1,1,1],[-1,1,-1]]
 def_col = [[120,120,240],[140,140,240],[160,160,220]]
 
 #Initialized values for functions
+minimum = 0
+maximum = 255
 
 #Draws the text
 
