@@ -1,4 +1,5 @@
 #Imports the pygame module
+import pygame
 
 #Sets the value for the width and height of the display screen
 
