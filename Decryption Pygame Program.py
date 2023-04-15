@@ -58,6 +58,7 @@ new_decrypt= (decrypt.replace("*","a").replace("&","e").replace("#","i").replace
 print("\n Now look back again at the 'Decryption' display screen :D")
 
 # Split into words
+words = new_decrypt.split()
 
 # Calculate number of words per line
 
