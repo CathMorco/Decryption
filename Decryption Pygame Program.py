@@ -51,6 +51,7 @@ def array_func(col,dir,text,size,x,y):
 pygame.init()
 
 #Asks the user for the statement that will be decrypted
+decrypt=input(str("Please Input the statement that will be decrypted:"))
 
 #Converts the following characters: 'a' = *, 'e' = & , 'i' = # , 'o' = + 'u' = !
 
