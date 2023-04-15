@@ -70,5 +70,6 @@ line2 = " ".join(words[words_per_line:2*words_per_line])
 line3 = " ".join(words[2*words_per_line:])
 
 #Combines the 3 lines into one list
+texts= [line1,line2,line3]
 
 #Runs the program
