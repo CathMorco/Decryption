@@ -65,6 +65,9 @@ num_words = len(words)
 words_per_line = num_words // 3
 
 # Divide into 3 lines
+line1 = " ".join(words[:words_per_line])
+line2 = " ".join(words[words_per_line:2*words_per_line])
+line3 = " ".join(words[2*words_per_line:])
 
 #Combines the 3 lines into one list
 
